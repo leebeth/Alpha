@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Alphabet</string>
+    <string name="title_activity_main2">Alphabet</string>
+    <string name="deletrea">Deletrea</string>
+    <string name="letra_inicial">Letra Inicial</string>
+    <string name="title_activity_apendice">Apendice</string>
+    <string name="banner_catalogo_juegos">ca-app-pub-6455142835794611/1710100683</string>
+    <string name="banner_videos">ca-app-pub-6455142835794611/9314092682</string>
+    <string name="intersticial">ca-app-pub-6455142835794611/8626311486</string>
+</resources>

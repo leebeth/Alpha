@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sonidos">sonidos </string>
+    <string name="imagenes">imagenes </string>
+    <string name="diccionario">jsons/diccionario.json</string>
+    <string name="juegos">jsons/juegos.json</string>
+</resources>
