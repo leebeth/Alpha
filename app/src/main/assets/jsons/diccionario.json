@@ -1,195 +1,266 @@
 {
   "a":
   [
-    "abeja",
-    "anillo",
-	"ara_a",
-	"arbol",
-	"arcoiris",
-    "aros",
-    "ave",
-    "avion"
+    "airplane",
+    "acorn",
+    "ant",
+    "anvil",
+    "apple",
+    "arrow"
   ],
-  "b": 
+  "b":
   [
-    "banano",
-    "barco",
-    "bota",
-    "bruja",
-    "buho",
-    "burro"
+    "ball",
+    "banana",
+    "bear",
+    "bee",
+    "bird",
+    "boat",
+    "boot",
+    "wood_fire",
+    "boy",
+    "bottle_baby",
+    "broom"
   ],
-  "c": 
+  "c":
   [
-    "caballo",
-    "camisa",
-    "casa",
-    "cometa",
-    "corona"
+    "cap",
+    "candle",
+    "cat",
+    "carrot",
+    "cooking_pot",
+    "cheese",
+    "church",
+    "clock",
+    "clover",
+    "cow",
+    "crown",
+    "couch"
   ],
-  "d": 
+  "d":
   [
-    "dados",
-    "dedo",
-    "dinosaurio",
-    "duende"
+    "drum",
+    "dog",
+    "duck",
+    "dolphin",
+    "donut",
+    "doll",
+    "father",
+    "deer",
+    "dices",
+    "dinosaur",
+    "donkey",
+    "dwarf"
   ],
-  "e": 
+  "e":
   [
-    "elefante",
-    "enano",
-	"escalera",
-	"escoba",
-	"escorpion",
-    "espada",
-	"espejo",
-	"estrella"
+    "ear",
+    "eagle",
+    "eel",
+    "egg",
+    "eggplant",
+    "eight",
+    "elephant",
+    "elf",
+    "envelope",
+    "eyes"
   ],
-  "f": 
+  "f":
   [
-    "faro",
-    "flecha",
-    "fogata",
-    "foto"
+    "fish",
+    "flowers",
+    "fruits",
+    "flag",
+    "feet",
+    "four",
+    "fairy",
+    "finger",
+    "fox"
   ],
-  "g": 
+  "g":
   [
-    "gato",
-    "gorra",
-    "gorila",
-    "gusano"
+    "glove",
+    "glue",
+    "guitar",
+    "glasses",
+    "glass",
+    "grape",
+    "giraffe",
+    "girl",
+    "gorilla"
   ],
-  "h": 
+  "h":
   [
-    "hada",
-    "hielo",
-    "hoja",
-    "huevo"
+    "hat",
+    "hen",
+    "hive",
+    "hammer",
+    "hand",
+    "house",
+    "horse",
+    "hoops"
   ],
-  "i": 
+  "i":
   [
-    "iglesia",
-    "iglu",
+    "ice",
+    "igloo",
     "iguana",
-	"iman",
-    "indios",
-	"isla"
+    "inch",
+    "indians",
+    "island"
   ],
-  "j": 
+  "j":
   [
-    "jabali",
-    "jabon",
-    "jarra",
-    "jirafa"
+    "jewerly",
+    "jam",
+    "jaguar",
+    "jeep",
+    "jet",
+    "jacket",
+    "jellyfish"
   ],
-  "k": 
+  "k":
   [
+    "key",
+    "king",
+    "kangaroo",
+    "knife",
+    "kite",
     "kiwi",
     "koala"
   ],
-  "l": 
+  "l":
   [
-    "leon",
-    "loro",
-    "luna",
-    "lupa"
+    "lamp",
+    "ladybug",
+    "lip",
+    "leaf",
+    "lighthouse",
+    "lion"
   ],
-  "m": 
+  "m":
   [
-    "maleta",
-    "mama",
-    "mano",
-    "mimo",
-    "mono",
-    "moto"
+    "mare",
+    "magnet",
+    "magnifying_glass",
+    "mime",
+    "mirror",
+    "moon",
+    "mouse",
+    "mother",
+    "monkey",
+    "motorcycle"
   ],
-  "n": 
+  "n":
   [
-    "ni_a",
-    "ni_o"
+    "nose",
+    "nurse",
+    "necklace",
+    "nest",
+    "notebook",
+    "nail"
   ],
-  "_":
+  "o":
   [
-    "_andu",
-    "_o_o"
+    "oak",
+    "octopus",
+    "one",
+    "orange",
+    "owl"
   ],
-  "o": 
+  "p":
   [
-	"ocho",
-    "ojos",
-	"olla",
-	"oreja",
-    "ornitorrinco",
-    "oso",
-    "oveja"
+    "parrot",
+    "platypus",
+    "photo",
+    "pitcher",
+    "pipe",
+    "princess"
   ],
-  "p": 
+  "q":
   [
-    "papa",
-    "pelota",
-    "pipa",
-    "princesa"
-  ],
-  "q": 
-  [
-    "queso",
+    "queen",
+    "question",
+    "quilt",
     "quico"
   ],
-  "r": 
+  "r":
   [
-    "raton",
-    "reloj",
-    "rosa"
+    "robot",
+    "radio",
+    "rhino",
+    "rabbit",
+    "rainbows",
+    "rhea",
+    "ring",
+    "rose"
   ],
-  "s": 
+  "s":
   [
-    "sandia",
-    "sapo",
-    "sofa"
+    "scorpion",
+    "sheep",
+    "shirt",
+    "shoes",
+    "skunk",
+    "soap",
+    "spider",
+    "stairs",
+    "star",
+    "sword",
+    "suitcase"
   ],
-  "t": 
+  "t":
   [
-    "telefono",
-    "tetero",
-    "trebol"
+    "train",
+    "table",
+    "turtle",
+    "television",
+    "telephone",
+    "triangle",
+    "toad",
+    "tree",
+    ""
   ],
-  "u": 
+  "u":
   [
-    "u_a",
-	"unicornio",
-	"uniforme",
-	"universo",
-    "uno",
-	"uva"
+    "umbrella",
+    "unicorn",
+    "uniform",
+    "universe"
   ],
-  "v": 
+  "v":
   [
-    "vaca",
-    "vaso",
-    "vela",
-    "venado"
+    "violin",
+    "vegetables",
+    "vampire",
+    "vacuum"
   ],
-  "w": 
+  "w":
   [
-    "walle",
+    "watermelon",
+    "wild_pig",
+    "witch",
+    "worm",
     "wanda",
+    "wall-e",
     "wifi"
   ],
-  "x": 
+  "x":
   [
-    "xilofono"
+    "xylophone",
+    "x-rays"
   ],
-  "y": 
+  "y":
   [
-    "yegua",
-    "yoyo",
-    "yunque"
+    "yogurt",
+    "yacht",
+    "yarn",
+    "yo-yo"
   ],
-  "z": 
+  "z":
   [
-    "zanahoria",
-    "zapatos",
-    "zorrillo",
-    "zorro"
+    "zebra",
+    "zero",
+    "zig_zag"
   ]
 }
