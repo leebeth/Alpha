@@ -4,7 +4,8 @@
     <string name="deletrea">Spells Out</string>
     <string name="letra_inicial">Initial Letter</string>
     <string name="title_activity_apendice">Appendix</string>
-    <string name="banner_catalogo_juegos">ca-app-pub-6455142835794611/1710100683</string>
-    <string name="banner_videos">ca-app-pub-6455142835794611/9314092682</string>
-    <string name="intersticial">ca-app-pub-6455142835794611/8626311486</string>
+    <string name="banner_catalogo_juegos">ca-app-pub-6455142835794611/7646803085</string>
+    <string name="banner_videos">ca-app-pub-6455142835794611/1600269483</string>
+    <string name="intersticial">ca-app-pub-6455142835794611/4553735889</string>
+    <string name="player_error">Error initializing YouTube player: %s</string>
 </resources>

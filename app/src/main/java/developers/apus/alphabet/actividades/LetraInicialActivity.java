@@ -24,7 +24,6 @@ public class LetraInicialActivity extends AppCompatActivity implements View.OnCl
     private MediaPlayer correcto, incorrecto, celebracion, letra;
 
     public static void setJuego(Juego juego) {
-        //if(LetraInicialActivity.juego == null)
         LetraInicialActivity.juego = juego;
     }
 

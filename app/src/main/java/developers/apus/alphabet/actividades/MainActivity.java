@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
                 case 0:
                     return new CatalogoJuegosFragment();
                 case 1:
-                    return new VideosFragment();
+                    return new YoutubeFragment();
             }
             return null;
         }
