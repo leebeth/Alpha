@@ -2,18 +2,18 @@
   "juegos":
   [
     {
-      "nombre":"Aprende",
-      "descripcion": "Conoce las letras, palabras y sus sonidos",
+      "nombre":"Learn",
+      "descripcion": "Know the letters, words and their pronunciation",
       "portada": "aprende"
     },
     {
-      "nombre": "Letra Inicial",
-      "descripcion": "Escoje la figura que comienza con la letra indicada",
+      "nombre": "Initial Letter",
+      "descripcion": "Choose the image that begins with the letter",
       "portada": "letra_inicial"
     },
     {
-      "nombre":"Deletrea",
-      "descripcion": "Selecciona las letras que conforman el nombre de la figura mostrada",
+      "nombre":"Spells Out",
+      "descripcion": "Select each letter until you complete the word",
       "portada": "deletrea"
     }
   ]

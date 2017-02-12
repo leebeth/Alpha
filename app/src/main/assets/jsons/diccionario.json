@@ -17,39 +17,37 @@
     "bird",
     "boat",
     "boot",
-    "wood_fire",
-    "boy",
     "bottle_baby",
+    "boy",
     "broom"
   ],
   "c":
   [
-    "cap",
     "candle",
-    "cat",
+    "cap",
     "carrot",
-    "cooking_pot",
+    "cat",
     "cheese",
     "church",
     "clock",
     "clover",
+    "cooking_pot",
+    "couch",
     "cow",
-    "crown",
-    "couch"
+    "crown"
   ],
   "d":
   [
-    "drum",
-    "dog",
-    "duck",
-    "dolphin",
-    "donut",
-    "doll",
-    "father",
     "deer",
     "dices",
     "dinosaur",
+    "dog",
+    "doll",
+    "dolphin",
     "donkey",
+    "donut",
+    "drum",
+    "duck",
     "dwarf"
   ],
   "e":
@@ -67,38 +65,39 @@
   ],
   "f":
   [
-    "fish",
-    "flowers",
-    "fruits",
-    "flag",
-    "feet",
-    "four",
     "fairy",
+    "father",
+    "feet",
     "finger",
-    "fox"
+    "fish",
+    "flag",
+    "flowers",
+    "four",
+    "fox",
+    "fruits"
   ],
   "g":
   [
-    "glove",
-    "glue",
-    "guitar",
-    "glasses",
-    "glass",
-    "grape",
     "giraffe",
     "girl",
-    "gorilla"
+    "glass",
+    "glasses",
+    "glove",
+    "glue",
+    "gorilla",
+    "grapes",
+    "guitar"
   ],
   "h":
   [
+    "hammer",
+    "hand",
     "hat",
     "hen",
     "hive",
-    "hammer",
-    "hand",
-    "house",
+    "hoops",
     "horse",
-    "hoops"
+    "house"
   ],
   "i":
   [
@@ -111,54 +110,53 @@
   ],
   "j":
   [
-    "jewerly",
-    "jam",
-    "jaguar",
-    "jeep",
-    "jet",
     "jacket",
-    "jellyfish"
+    "jaguar",
+    "jam",
+    "jeep",
+    "jellyfish",
+    "jet"
   ],
   "k":
   [
+    "kangaroo",
     "key",
     "king",
-    "kangaroo",
-    "knife",
     "kite",
     "kiwi",
+    "knife",
     "koala"
   ],
   "l":
   [
-    "lamp",
     "ladybug",
-    "lip",
+    "lamp",
     "leaf",
     "lighthouse",
-    "lion"
+    "lion",
+    "lips"
   ],
   "m":
   [
-    "mare",
     "magnet",
     "magnifying_glass",
+    "mare",
     "mime",
     "mirror",
-    "moon",
-    "mouse",
-    "mother",
     "monkey",
-    "motorcycle"
+    "moon",
+    "mother",
+    "motorcycle",
+    "mouse"
   ],
   "n":
   [
-    "nose",
-    "nurse",
+    "nail",
     "necklace",
     "nest",
+    "nose",
     "notebook",
-    "nail"
+    "nurse"
   ],
   "o":
   [
@@ -171,28 +169,28 @@
   "p":
   [
     "parrot",
-    "platypus",
     "photo",
-    "pitcher",
     "pipe",
+    "pitcher",
+    "platypus",
     "princess"
   ],
   "q":
   [
     "queen",
     "question",
-    "quilt",
-    "quico"
+    "quico",
+    "quilt"
   ],
   "r":
   [
-    "robot",
-    "radio",
-    "rhino",
     "rabbit",
-    "rainbows",
+    "radio",
+    "rainbow",
     "rhea",
+    "rhino",
     "ring",
+    "robot",
     "rose"
   ],
   "s":
@@ -206,20 +204,19 @@
     "spider",
     "stairs",
     "star",
-    "sword",
-    "suitcase"
+    "suitcase",
+    "sword"
   ],
   "t":
   [
-    "train",
     "table",
-    "turtle",
-    "television",
     "telephone",
-    "triangle",
+    "television",
     "toad",
+    "train",
     "tree",
-    ""
+    "triangle",
+    "turtle"
   ],
   "u":
   [
@@ -230,31 +227,32 @@
   ],
   "v":
   [
-    "violin",
-    "vegetables",
+    "vacuum",
     "vampire",
-    "vacuum"
+    "vegetables",
+    "violin"
   ],
   "w":
   [
+    "wall0e",
+    "wanda",
     "watermelon",
+    "wifi",
     "wild_pig",
     "witch",
-    "worm",
-    "wanda",
-    "wall0e",
-    "wifi"
+    "wood_fire",
+    "worm"
   ],
   "x":
   [
-    "xylophone",
-    "x0rays"
+    "x0rays",
+    "xylophone"
   ],
   "y":
   [
-    "yogurt",
     "yacht",
     "yarn",
+    "yogurt",
     "yo0yo"
   ],
   "z":

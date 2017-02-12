@@ -40,59 +40,32 @@ public class ItemAdapterLetra extends RecyclerView.Adapter<ItemAdapterLetra.Letr
         String nombre;
         String nombreJson = items.get(i).getNombre();
         switch (nombreJson) {
-            case "avion":
-                nombre = "Avión";
+            case "wood_fire":
+                nombre = "Wood fire";
                 break;
-            case "buho":
-                nombre = "Búho";
+            case "bottle_baby":
+                nombre = "Bottle baby";
                 break;
-            case "iglu":
-                nombre = "Iglú";
+            case "cooking_pot":
+                nombre = "Cooking pot";
                 break;
-            case "jabali":
-                nombre = "Jabalí";
+            case "magnifying_glass":
+                nombre = "Magnifying glass";
                 break;
-            case "jabon":
-                nombre = "Jabón";
+            case "wild_pig":
+                nombre = "Wild pig";
                 break;
-            case "leon":
-                nombre = "León";
+            case "zig_zag":
+                nombre = "zig zag";
                 break;
-            case "mama":
-                nombre = "Mamá";
+            case "yo0yo":
+                nombre = "yo-yo";
                 break;
-            case "ni_a":
-                nombre = "Niña";
+            case "x0rays":
+                nombre = "x-rays";
                 break;
-            case "ni_o":
-                nombre = "Niño";
-                break;
-            case "_":
-                nombre = "Ñ";
-                break;
-            case "_andu":
-                nombre = "Ñandú";
-                break;
-            case "_o_o":
-                nombre = "Ñoño";
-                break;
-            case "papa":
-                nombre = "Papá";
-                break;
-            case "raton":
-                nombre = "Ratón";
-                break;
-            case "telefono":
-                nombre = "Teléfono";
-                break;
-            case "trebol":
-                nombre = "Trébol";
-                break;
-            case "u_a":
-                nombre = "Uña";
-                break;
-            case "xilofono":
-                nombre = "Xilófono";
+            case "wall0e":
+                nombre = "wall-e";
                 break;
             default:
                 nombre = String.valueOf(nombreJson.charAt(0)).toUpperCase().concat(nombreJson.substring(1));
