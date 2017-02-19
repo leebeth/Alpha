@@ -150,9 +150,22 @@ public class Juego {
 
     public boolean validarLetra(String letra){
         if(indice < imagenActual.getNombre().length()){
-            boolean correcto = imagenActual.getNombre().replaceAll("_","\u0148").charAt(indice) == letra.charAt(0);
+            StringBuilder aStringBuilder = new StringBuilder(escrita);
+
+            char caracterActual = imagenActual.getNombre().charAt(indice);
+
+            if(caracterActual == '0'){
+                aStringBuilder.replace(indice*2, (indice*2) + 1, "-" );
+                indice++;
+            }
+            else if(caracterActual == '_'){
+                aStringBuilder.replace(indice*2, (indice*2) + 1, " " );
+                indice++;
+            }
+
+            boolean correcto = imagenActual.getNombre().charAt(indice) == letra.charAt(0);
+
             if(correcto){
-                StringBuilder aStringBuilder = new StringBuilder(escrita);
                 aStringBuilder.replace(indice*2, (indice*2) + 1, letra);
                 escrita = aStringBuilder.toString();
                 indice++;
@@ -163,7 +176,7 @@ public class Juego {
     }
 
     public boolean verificarEscrito(){
-        boolean ok = imagenActual.getNombre().replaceAll("_", "\u0148").equals(escrita.replaceAll(" ", ""));
+        boolean ok = imagenActual.getNombre().replaceAll("[_0]", "").equals(escrita.replaceAll("[ -]", ""));
         if(ok){
             letraActual.mostrar();
         }
@@ -200,8 +213,17 @@ public class Juego {
         imagenActual = getSiguienteLetra().getImagenAleatoria();
         escrita = "";
         indice = 0;
-        for (int i = 1; i < imagenActual.getNombre().length(); i++) {
-            escrita += "_ ";
+        for (int i = 0; i < imagenActual.getNombre().length() - 1; i++) {
+            char charActual = imagenActual.getNombre().charAt(i);
+            if(charActual == '_'){
+                escrita += "  ";
+            }
+            else if(charActual == '0'){
+                escrita += "- ";
+            }
+            else{
+                escrita += "_ ";
+            }
         }
         escrita += "_";
 

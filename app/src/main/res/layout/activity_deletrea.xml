@@ -51,7 +51,7 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Large Text"
                 android:id="@+id/texto"
-                android:paddingTop="7dp"
+                android:paddingTop="@dimen/padding_top_image"
                 android:layout_alignBottom="@+id/imagen"
                 android:layout_centerHorizontal="true" />
         </RelativeLayout>

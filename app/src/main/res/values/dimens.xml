@@ -7,5 +7,6 @@
     <dimen name="alto_matriz">100dp</dimen>
     <integer name="numero_filas_juego_deletrea">7</integer>
     <integer name="numero_columnas_juego_deletrea">4</integer>
-    <dimen name="font">13sp</dimen>
+    <dimen name="font">20sp</dimen>
+    <dimen name="padding_top_image">12dp</dimen>
 </resources>
