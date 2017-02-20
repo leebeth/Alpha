@@ -121,12 +121,16 @@ public class YoutubeFragment extends Fragment implements YouTubePlayer.OnInitial
 
     private void initPlayList(){
         playList = new HashMap<>();
-        playList.put("Vowels Song","2V4LZs3Lfwc"); //https://www.youtube.com/watch?v=2V4LZs3Lfwc
-        playList.put("Short Vowels Song","hnVhx3vk1Jg"); //https://www.youtube.com/watch?v=hnVhx3vk1Jg
-        playList.put("Apples and Bananas - Vowels Song","lNNMknj0PyE");//https://www.youtube.com/watch?v=lNNMknj0PyE
-        playList.put("The Vowels Phonics Song","r-kfBpm6qPo");//https://www.youtube.com/watch?v=r-kfBpm6qPo
-        playList.put("Short and Long Vowels","RBAxxzXh7Fc");//https://www.youtube.com/watch?v=RBAxxzXh7Fc
-        playList.put("Phonics Song","P4c9ewnypCU");//https://www.youtube.com/watch?v=P4c9ewnypCU
+        playList.put("The Alphabet Chant","aEYcmNhz7Uc"); //https://www.youtube.com/watch?v=aEYcmNhz7Uc
+        playList.put("Phonics Song with TWO Words","hq3yfQnllfQ"); //https://www.youtube.com/watch?v=hq3yfQnllfQ
+        playList.put("ABC Song","zAlX1V3lK5s"); //https://www.youtube.com/watch?v=zAlX1V3lK5s
+        playList.put("Alphabet Song","Q8JmK5z6QD4"); //https://www.youtube.com/watch?v=Q8JmK5z6QD4
+        playList.put("Sesame Street","ML8IL77gQ3k"); //https://www.youtube.com/watch?v=ML8IL77gQ3k
+        playList.put("Sing the Alphabet Song!","783EsrHchXA"); //https://www.youtube.com/watch?v=783EsrHchXA
+        playList.put("Usher's ABC Song","SWvBAQf7v8g"); //https://www.youtube.com/watch?v=SWvBAQf7v8g
+        playList.put("The Alphabet Chant 2","cR-Qr1V8e_w"); //https://www.youtube.com/watch?v=cR-Qr1V8e_w
+        playList.put("ABC Songs for Children","B5csN8gQY4E"); //https://www.youtube.com/watch?v=B5csN8gQY4E
+
     }
 
     private void reproducirVideo(int position) {
@@ -157,7 +161,7 @@ public class YoutubeFragment extends Fragment implements YouTubePlayer.OnInitial
         player.setPlaybackEventListener(playbackEventListener);
 
         if (!wasRestored) {
-            player.cueVideo(playList.get(getNameSongs()[0])); // Plays https://www.youtube.com/watch?v=fhWaJi1Hsfo
+            player.cueVideo(playList.get(getNameSongs()[0])); // Plays https://www.youtube.com/watch?v=zAlX1V3lK5s
             positionActual = 0;
         }
     }
