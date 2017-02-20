@@ -15,6 +15,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
+import developers.apus.alphabet.BuildConfig;
 import developers.apus.alphabet.PruebaActivity;
 import developers.apus.alphabet.R;
 import developers.apus.alphabet.adapters.ItemAdapter;
@@ -50,9 +51,21 @@ public class CatalogoJuegosFragment extends Fragment implements IAdapterComunica
         View rootView = inflater.inflate(R.layout.catalogo_fragment, container, false);
 
         adView = (AdView) rootView.findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice( AdRequest.DEVICE_ID_EMULATOR )
-                .build();
+        AdRequest adRequest;
+
+        if(BuildConfig.DEBUG){
+            adRequest = new AdRequest.Builder()
+                    .addTestDevice("E6D875D21E5D7044F76A3C6603BC25D6")//Lo
+                    .addTestDevice("1D6E14D9D821973C13370F0C46ECD264")//Mi
+                    .addTestDevice("04675459C2BE09CF506EDD1002143111")//Genymotion tablet
+                    .addTestDevice("2911693A4370B61588F14C331189465F")//Nexus one
+                    .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                    .build();
+        }
+        else{
+            adRequest = new AdRequest.Builder().build();
+        }
+
         adView.loadAd(adRequest);
 
         // Create the interstitial.
@@ -60,9 +73,20 @@ public class CatalogoJuegosFragment extends Fragment implements IAdapterComunica
         interstitial.setAdUnitId(getString(R.string.intersticial));
 
         // Create ad request.
-        AdRequest adRequestI = new AdRequest.Builder()
-                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                .build();
+        AdRequest adRequestI;
+
+        if(BuildConfig.DEBUG){
+            adRequestI = new AdRequest.Builder()
+                    .addTestDevice("E6D875D21E5D7044F76A3C6603BC25D6")//Lo
+                    .addTestDevice("1D6E14D9D821973C13370F0C46ECD264")//Mi
+                    .addTestDevice("04675459C2BE09CF506EDD1002143111")//Genymotion tablet
+                    .addTestDevice("2911693A4370B61588F14C331189465F")//Nexus one
+                    .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                    .build();
+        }
+        else{
+            adRequestI = new AdRequest.Builder().build();
+        }
 
         // Begin loading your interstitial.
         interstitial.loadAd(adRequestI);
