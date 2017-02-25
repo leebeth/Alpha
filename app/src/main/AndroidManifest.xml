@@ -40,7 +40,6 @@
         <activity
             android:name=".actividades.ApendiceFragment"
             android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".actividades.YoutubeFragment"/>
     </application>
 
 </manifest>
