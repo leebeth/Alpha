@@ -35,7 +35,9 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.JuegoViewHolde
 
     @Override
     public void onBindViewHolder(JuegoViewHolder viewHolder, int i) {
-        viewHolder.imagen.setImageResource(ImagenesId.getDrawableId(items.get(i).getPortada()));
+        String drawableName = items.get(i).getPortada();
+        if(drawableName != null)
+            viewHolder.imagen.setImageResource(ImagenesId.getDrawableId(drawableName));
         viewHolder.nombre.setText(items.get(i).getNombre());
         viewHolder.descripcion.setText(items.get(i).getDescripcion());
     }
