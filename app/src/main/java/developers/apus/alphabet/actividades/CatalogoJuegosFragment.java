@@ -9,6 +9,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -27,10 +31,6 @@ import developers.apus.alphabet.constantes.TipoJuego;
 import developers.apus.alphabet.interfaces.IAdapterComunication;
 import developers.apus.alphabet.utilidades.Json;
 import developers.apus.alphabet.utilidades.Util;
-
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.InterstitialAd;
 
 /**
  * Created by Miguel on 24/02/2016.

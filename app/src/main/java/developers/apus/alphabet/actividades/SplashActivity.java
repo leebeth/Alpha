@@ -1,15 +1,10 @@
 package developers.apus.alphabet.actividades;
 
 import android.app.Activity;
-import android.graphics.Color;
 import android.graphics.PorterDuff;
-import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Window;
 import android.widget.ProgressBar;
-import android.widget.Toast;
-
 
 import developers.apus.alphabet.R;
 import developers.apus.alphabet.constantes.ImagenesId;

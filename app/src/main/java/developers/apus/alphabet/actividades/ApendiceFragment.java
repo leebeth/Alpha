@@ -1,6 +1,5 @@
 package developers.apus.alphabet.actividades;
 
-import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -10,14 +9,15 @@ import android.view.View;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import developers.apus.alphabet.R;
 import developers.apus.alphabet.adapters.ItemAdapterLetra;
 import developers.apus.alphabet.adapters.ItemLetra;
 import developers.apus.alphabet.clases.Imagen;
 import developers.apus.alphabet.clases.Juego;
 import developers.apus.alphabet.clases.Letra;
-import developers.apus.alphabet.listeners.MediaPlayerListener;
 import developers.apus.alphabet.interfaces.IAdapterComunication;
+import developers.apus.alphabet.listeners.MediaPlayerListener;
 import developers.apus.alphabet.utilidades.Util;
 
 public class ApendiceFragment extends AppCompatActivity implements IAdapterComunication {

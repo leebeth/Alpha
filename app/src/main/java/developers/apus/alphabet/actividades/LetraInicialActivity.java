@@ -2,9 +2,9 @@ package developers.apus.alphabet.actividades;
 
 import android.content.Context;
 import android.media.MediaPlayer;
+import android.os.Bundle;
 import android.os.Vibrator;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageView;
@@ -107,14 +107,6 @@ public class LetraInicialActivity extends AppCompatActivity implements View.OnCl
                     opcion4.setImageResource(ImagenesId.getDrawableId(opciones.get(3).getNombre()));
                 }
                 catch (NullPointerException e){
-                    String a = opciones.get(0).getNombre();
-                    String b = opciones.get(1).getNombre();
-                    String c = opciones.get(2).getNombre();
-                    String d = opciones.get(3).getNombre();
-                    int e1 = ImagenesId.getDrawableId(a);
-                    int f = ImagenesId.getDrawableId(b);
-                    int g = ImagenesId.getDrawableId(c);
-                    int h = ImagenesId.getDrawableId(d);
                 }
             }
         });

@@ -35,7 +35,9 @@ public class ItemAdapterLetra extends RecyclerView.Adapter<ItemAdapterLetra.Letr
 
     @Override
     public void onBindViewHolder(LetraViewHolder viewHolder, int i) {
-        viewHolder.imagen.setImageResource(ImagenesId.getDrawableId(items.get(i).getNombre()));
+        String drawableName = items.get(i).getNombre();
+        if(drawableName != null)
+            viewHolder.imagen.setImageResource(ImagenesId.getDrawableId(drawableName));
         viewHolder.original = items.get(i).getNombreOriginal();
         String nombre;
         String nombreJson = items.get(i).getNombre();

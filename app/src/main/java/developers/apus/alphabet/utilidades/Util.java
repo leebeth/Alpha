@@ -27,7 +27,7 @@ public class Util {
             fIn = context.getResources().getAssets().open(fileName);
             isr = new InputStreamReader(fIn);
             input = new BufferedReader(isr);
-            String line = "";
+            String line;
             while ((line = input.readLine()) != null) {
                 returnString.append(line);
             }

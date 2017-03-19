@@ -11,7 +11,6 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
 
-import developers.apus.alphabet.adapters.Item;
 import developers.apus.alphabet.constantes.TipoJuego;
 import developers.apus.alphabet.excepciones.JuegoTerminadoException;
 

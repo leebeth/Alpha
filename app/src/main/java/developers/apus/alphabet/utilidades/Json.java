@@ -1,11 +1,16 @@
 package developers.apus.alphabet.utilidades;
 
+import android.util.Log;
+
 import com.google.gson.Gson;
 
 /**
  * Created by Miguel on 24/02/2016.
  */
 public class Json {
+
+    private static final String TAG = "Json-Utils";
+
     /**
      * Metodo para convertir cualquier objeto a un string en formato json
      * @param object objeto del que se quiere generar el json
@@ -13,7 +18,7 @@ public class Json {
      * @throws Exception
      */
     public static String obtect2Json(final Object object) throws Exception {
-        String json = null;
+        String json;
         final Gson gson = new Gson();
         json = gson.toJson(object);
         return json;
@@ -27,9 +32,15 @@ public class Json {
      * @throws Exception
      */
     public static <T>T json2Object(final String json, Class<T> clase) throws Exception {
-        T object = null;
-        final Gson gson = new Gson();
-        object = gson.fromJson(json, clase);
-        return object;
+        try {
+            T object;
+            Gson gson = new Gson();
+            object = gson.fromJson(json, clase);
+            return object;
+        }
+        catch (Exception e){
+            Log.e(TAG,e.getMessage(),e);
+            throw e;
+        }
     }
 }
